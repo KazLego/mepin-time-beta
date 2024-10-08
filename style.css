@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'scrible'; /*a name to be used later*/
+    src: url("Myfont-Regular.ttf"); /*URL to font*/
+}
+
+body{
+text-align: center;
+font-family: "scrible", system-ui;
+
+}
+#buttons{
+width: 500px;
+text-align: center;
+margin: auto;
+
+}
+button{
+width: 200px;
+height: 100px;
+background-color: white;
+font-family: "scrible", system-ui;
+border-radius: 15px;
+transition: 10s ;
+}
+button:active{}
+#mainbox{
+background-color: rgb(255, 255, 255);
+outline: 2px solid rgb(0, 0, 0);
+height: 150px;
+width: 500px;
+margin: auto;
+text-align: center;
+border-radius: 15px;
+}
+#question{
+    font-family: "scrible", system-ui;
+text-align: center;
+vertical-align: middle;
+line-height: 150px;
+font-weight: normal;
+}
+#title{
+    font-family: "scrible", system-ui;
+
+font-size: 90px;
+}
