@@ -1,12 +1,14 @@
 @font-face {
     font-family: 'scrible'; /*a name to be used later*/
-    src: url("Myfont-Regular.ttf"); /*URL to font*/
+    src: url("C20-Regular.ttf"); /*URL to font*/
 }
 
 body{
 text-align: center;
 font-family: "scrible", system-ui;
 
+background-image: url("New Project (2).png");
+background-size: cover;
 }
 #buttons{
 width: 500px;
@@ -17,14 +19,16 @@ margin: auto;
 button{
 width: 200px;
 height: 100px;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.555);
 font-family: "scrible", system-ui;
 border-radius: 15px;
 transition: 10s ;
+backdrop-filter: blur(1px);
 }
-button:active{}
+/* button:active{} */
 #mainbox{
-background-color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0.555);
+backdrop-filter: blur(1px);
 outline: 2px solid rgb(0, 0, 0);
 height: 150px;
 width: 500px;
@@ -41,6 +45,6 @@ font-weight: normal;
 }
 #title{
     font-family: "scrible", system-ui;
-
+font-weight: normal;
 font-size: 90px;
 }
